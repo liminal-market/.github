@@ -7,8 +7,13 @@ Liminal.market is a blockchain-based protocol that enables users to trade stocks
 
 Liminal.market provides a suite of GitHub repositories designed to facilitate seamless integration with our platform. Developers seeking to leverage the capabilities of Liminal.market can explore the following key repositories:
 
+### Documentation
+In each repository, there is a docs folder in the root folder. This is where you can find the documentation for the project.
+The exception is the liminal.market.libaries, where you have one repository for multiple libraries. You should find the docs in the folder of each library. For example, for the Typesccript core, https://github.com/liminal-market/liminal.market.libraries/tree/main/javascript/core
+
 ### Core SDKs for Integration
 - **[liminal.market.libraries](https://github.com/liminal-market/liminal.market.libraries)**: This repository contains the Software Development Kits (SDKs) for Liminal.market and is the primary resource for developers seeking to integrate with our platform. The SDKs provide core functionality, including user registration, account funding, order creation (buy/sell), and position viewing. Additionally, the repository includes the TradePanel widget, which can be easily embedded into your website to enable trading functionality for your users.
+- **Documentation**: You will find the documentation in each library folder. For example, for the Typescript core library, it can be found at [https://github.com/liminal-market/liminal.market.libraries/tree/main/javascript/core/docs](https://github.com/liminal-market/liminal.market.libraries/tree/main/javascript/core/docs)
 
 ### Demonstration and Example Repositories
 - **[liminal.market.app](https://github.com/liminal-market/liminal.market.app)**: Explore a demo web interface that demonstrates user interactions with Liminal.market smart contracts. You can see the demo at [app.liminal.market](https://app.liminal.market)
